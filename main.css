@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	background-color: #000;
+	color: #fff;
+	font-family: Monospace;
+	font-size: 18px;
+	line-height: 24px;
+	overscroll-behavior: none;
+}
+
+#info {
+    position: absolute;
+    top: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+    background: #6982ff47;
+    z-index: 1;
+    text-shadow: 0 0 10px black;
+    margin: 5px;
+    border-radius: 5px;
+}
+.info-container{
+    background: #2fa1d6;
+    width: 300px;
+    border-radius: 2px
+}
